@@ -12,8 +12,9 @@ public class studentMain {
 		System.out.println(kang.SchoolName + "학생 객채수 :"+Student.count);
 		
 		Student bak = new Student();
-		System.out.println(bak.SchoolName + "학생 객채수 :"+bak.count);
-
+		System.out.println(bak.SchoolName + "학생 객채수 :"+Student.count);
+		
+		System.out.println(Student.PI);
 	}
 
 }
