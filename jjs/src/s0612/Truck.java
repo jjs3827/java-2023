@@ -1,5 +1,5 @@
 package s0612;
 
-public class Truck {
-
+public class Truck extends car{
+	int ton;
 }
